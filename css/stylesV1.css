@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 20%;
+    font-family: 'Splash', cursive;
+    font-family: 'The Nautigal', cursive;
+}
+
+p {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.topContainer {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middleContainer {
+    background-color: #f6f5d8;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottomContainer {
+    background-color: #fad4d4;
+    position: relative;
+    padding-top: 20px;
+}
+
+.topCloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.sectionImage {
+    width: 10%;
+    height: auto;
+}
+
+.motto {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
