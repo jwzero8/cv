@@ -1,10 +1,17 @@
 a {
-    color: #11999E;
+    color: #7b92d8;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+    color: #c3e9f8;
 }
 
 h3 {
     color: #11999E;
 }
+
 body {
     margin: 0;
     text-align: center;
@@ -20,13 +27,34 @@ h1 {
 }
 
 h2 {
-    color:#66BFBF;
-    font-size: 1rem;
+    color:#720f63;
+    font-size: 2rem;
     font-weight: normal;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 p {
     font-family: 'Archivo Narrow', sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+ol {
+    width: 30%;
+    margin: auto;
+}
+
+h4 {
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    border: dotted #e76363 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 50px auto;
 }
 .topContainer {
     background-color: #E4F9F5;
@@ -37,7 +65,7 @@ p {
 .middleContainer {
     background-color: #f6f5d8;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .bottomContainer {
@@ -61,7 +89,15 @@ p {
 .sectionImage {
     width: 10%;
     height: auto;
-    margin: 100px auto;
+    margin: 20px auto;
+}
+
+.sectionImageProject {
+    width: 10%;
+    height: auto;
+    padding: 20px;
+    margin: 0px auto;
+    float: left;
 }
 
 .skillRow {
@@ -89,6 +125,7 @@ p {
     font-size: 18px;
     padding: 10px 10px 10px 10px;
     text-decoration: none;
+    
   }
   
   .btn:hover {
@@ -99,4 +136,9 @@ p {
     background-image: -o-linear-gradient(top, #ab734d, #3498db);
     background-image: linear-gradient(to bottom, #ab734d, #3498db);
     text-decoration: none;
+  }
+
+  .reference {
+    margin: 20px auto;
+    font-size: 0.75rem;
   }
